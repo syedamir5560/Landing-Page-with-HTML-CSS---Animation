@@ -55,12 +55,13 @@ html,body{
     color: rgb(21, 59, 69);
     font-size: 25px;
     
+    
 }
 
 #head>h1{
     font-weight: 900;
     font-family:  fantasy;
-    line-height: 60px;
+    line-height: 90px;
     letter-spacing: 5px;
     
 }
@@ -119,3 +120,79 @@ nav h5{
     color: white;
     font-weight: 800;
 }
+
+.box1 {
+    width: 250px;
+    height: 50px;
+    background-color: rgb(220, 220, 233);
+    animation: growShrink 2s ease-in-out infinite;
+    transform-origin: left center; /* Set the origin to the right side */
+}
+
+@keyframes growShrink {
+    0%, 100% {
+        transform: scaleX(0.5);
+    }
+    50% {
+        transform: scaleX(1.5);
+    }
+}
+
+.animation{
+    display: flex;
+    
+}
+
+.box2 {
+    width: 250px;
+    height: 50px;
+    background-color: rgb(220, 220, 233);
+    animation: growShrink 2s ease-in-out infinite;
+    transform-origin: left center; /* Set the origin to the right side */
+}
+
+@keyframes growShrink {
+    0%, 100% {
+        transform: scaleX(0.5);
+    }
+    50% {
+        transform: scaleX(1.5);
+    }
+}
+
+
+.box3{
+    width: 250px;
+    height: 50px;
+    background-color: rgb(220, 220, 233);
+    animation: growShrink 2s ease-in-out infinite;
+    transform-origin: left center; /* Set the origin to the right side */
+}
+
+@keyframes growShrink {
+    0%, 100% {
+        transform: scaleX(0.5);
+    }
+    50% {
+        transform: scaleX(1.5);
+    }
+}
+
+.box4 {
+    width: 250px;
+    height: 50px;
+    background-color: rgb(220, 220, 233);
+    animation: growShrink 2s ease-in-out infinite;
+    transform-origin: left center; /* Set the origin to the right side */
+}
+
+@keyframes growShrink {
+    0%, 100% {
+        transform: scaleX(0.5);
+    }
+    50% {
+        transform: scaleX(1);
+    }
+}
+
+
