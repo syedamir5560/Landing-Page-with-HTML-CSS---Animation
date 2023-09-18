@@ -95,3 +95,27 @@ html,body{
     letter-spacing: 3px;
     /* transform: r otate(90deg); */
 }
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+    top:5%;
+    left: 11.5% ;
+    position: absolute;
+    /* background-color: red; */
+
+}
+
+nav img{
+    height: 40px;
+}
+
+nav h5{
+    font-size: 15px;
+    font-family: fantasy;
+    color: white;
+    font-weight: 800;
+}
