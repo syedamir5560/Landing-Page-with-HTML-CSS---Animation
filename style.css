@@ -121,78 +121,112 @@ nav h5{
     font-weight: 800;
 }
 
+nav img:hover{
+    /* transform: rotate(90de   g); */
+    animation: grow 2s ease-in-out infinite;
+}
+
+@keyframes grow {
+    from {transform : scaleX(.7);}
+}
+
+
+nav h5:hover{
+    font-size:20px;
+    color: red;
+}
+
+.box1:hover{
+    animation: growShrink1 2s ease-in-out;
+    transform-origin: left center
+}
+@keyframes growShrink1 {
+    0%, 100% {
+        transform: scaleX(1);
+    }
+    50% {
+        transform: scaleX(1);
+    }
+}
+
+
 .box1 {
-    width: 250px;
+    width: 300px;
     height: 50px;
-    background-color: rgb(220, 220, 233);
+    background-color: transparent;
     animation: growShrink 2s ease-in-out infinite;
     transform-origin: left center; /* Set the origin to the right side */
 }
 
 @keyframes growShrink {
     0%, 100% {
-        transform: scaleX(0.5);
-    }
-    50% {
         transform: scaleX(1.5);
     }
+    50% {
+        transform: scaleX(1);
+    }
 }
+
+.box2 {
+    width: 300px;
+    height: 50px;
+    background-color: transparent;
+    animation: growShrink 3s ease-in-out infinite;
+    transform-origin: left center; /* Set the origin to the right side */
+}
+
+@keyframes growShrink {
+    0%, 100% {
+        transform: scaleX(1.5);
+    }
+    50% {
+        transform: scaleX(1);
+    }
+}
+.box3 {
+    width: 300px;
+    height: 50px;
+    background-color:transparent;
+    animation: growShrink 4s ease-in-out infinite;
+    transform-origin: left center; /* Set the origin to the right side */
+}
+
+@keyframes growShrink {
+    0%, 100% {
+        transform: scaleX(1.5);
+    }
+    50% {
+        transform: scaleX(1);
+    }
+}
+
+.box4 {
+    width: 300px;
+    height: 50px;
+    background-color: transparent;
+    animation: growShrink 3s ease-in-out infinite;
+    transform-origin: left center; /* Set the origin to the right side */
+}
+
+@keyframes growShrink {
+    0%, 100% {
+        transform: scaleX(1.5);
+    }
+    50% {
+        transform: scaleX(1);
+    }
+}
+
+
+
+
+
+
 
 .animation{
     display: flex;
     
 }
 
-.box2 {
-    width: 250px;
-    height: 50px;
-    background-color: rgb(220, 220, 233);
-    animation: growShrink 2s ease-in-out infinite;
-    transform-origin: left center; /* Set the origin to the right side */
-}
-
-@keyframes growShrink {
-    0%, 100% {
-        transform: scaleX(0.5);
-    }
-    50% {
-        transform: scaleX(1.5);
-    }
-}
-
-
-.box3{
-    width: 250px;
-    height: 50px;
-    background-color: rgb(220, 220, 233);
-    animation: growShrink 2s ease-in-out infinite;
-    transform-origin: left center; /* Set the origin to the right side */
-}
-
-@keyframes growShrink {
-    0%, 100% {
-        transform: scaleX(0.5);
-    }
-    50% {
-        transform: scaleX(1.5);
-    }
-}
-
-.box4 {
-    width: 250px;
-    height: 50px;
-    background-color: rgb(220, 220, 233);
-    animation: growShrink 2s ease-in-out infinite;
-    transform-origin: left center; /* Set the origin to the right side */
-}
-
-@keyframes growShrink {
-    0%, 100% {
-        transform: scaleX(0.5);
-    }
-    50% {
-        transform: scaleX(1);
-    }
-}
 
 
