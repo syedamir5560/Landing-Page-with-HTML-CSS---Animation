@@ -29,6 +29,12 @@ html,body{
     background-position: center;
 }
 
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color: hsla(11, 18%, 70%, 0.245);
+}
+
 
 
 #part3{
