@@ -65,3 +65,33 @@ html,body{
     
 }
 
+#img{
+    height: 300px;
+    width: 240px;
+    /* background-color: red; */
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    background-image: url(https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80);
+    background-size: cover;
+    border-radius:5px;
+}
+
+#vertical-text{
+    position: absolute;
+        transform: rotate(90deg);
+        right: -30%;
+        transform-origin: 0% ;
+    
+}
+
+#vertical-text>h1{
+    font-size: 65px;
+    /* font-weight: 800; */
+    color: transparent;
+    -webkit-text-stroke-width:2px ;
+    -webkit-text-stroke-color: white;
+    font-family: fantasy;
+    letter-spacing: 3px;
+    /* transform: r otate(90deg); */
+}
